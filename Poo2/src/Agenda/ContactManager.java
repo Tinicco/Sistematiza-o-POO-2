@@ -7,6 +7,17 @@ public class ContactManager {
         ContactList contactList = new ContactList();
         Scanner scanner = new Scanner(System.in);
         int option;
+        
+        contactList.addContact("Roberto", "7554163027", "bertinho62@hotmail.com");
+        contactList.addContact("Alice", "32990249821", "dracofire@hotmail.com");
+        contactList.addContact("Julio Pereira", "8224442724", "kingofnight@gmail.com");
+        contactList.addContact("Paula Nobre", "6651446777", "nobreza@gmail.com");
+        contactList.addContact("Luis", "7527995923", "huntervoid@yahoo.com");
+        contactList.addContact("Paulo Pereira", "8627535499", "paulopeirei@gmail.com");
+        contactList.addContact("Marcelo Fernandes Pereira", "7154512512", "yorukiller@hotmail.com");
+        contactList.addContact("Larissa", "6746358880", "opala1973@gmail.com");
+        contactList.addContact("Bruna", "3241166200", "seila@gmail.com");
+        contactList.addContact("Julia Araujo", "7455815765", "redmascarade@gmail.com");
 
         do {
             System.out.println("\n==== Gerenciador de Contatos ====");
